@@ -8,18 +8,18 @@ The Employee Management System is a relational database project that efficiently
 
 The project showcases database design principles along with advanced SQL concepts such as Views, Stored Procedures, User-Defined Functions, Triggers, and Indexes.
 
-🚀 Features
+ Features
 
-👨‍💼 Employee Management
-🏢 Department Management
-💼 Job Role Management
-💰 Payroll Management
-📅 Attendance Tracking
-🌴 Leave Management
-🎓 Qualification Management
-⭐ Performance Evaluation
-📊 Business Analytics using SQL
-🔐 Data Integrity using Constraints & Triggers
+Employee Management
+Department Management
+Job Role Management
+Payroll Management
+Attendance Tracking
+Leave Management
+Qualification Management
+Performance Evaluation
+Business Analytics using SQL
+Data Integrity using Constraints & Triggers
 
 
 
@@ -29,7 +29,7 @@ SQL
 MySQL Workbench
 
 
-🗄️ Database Design
+ Database Design
 The database follows normalization principles and consists of 8 relational tables connected through Primary and Foreign Keys.
 
 Tables
@@ -44,7 +44,7 @@ Performance
 
 
 
-📊 SQL Concepts Implemented
+ SQL Concepts Implemented
 ✅ Analytical SQL Queries
 Employee Analysis
 Department Analysis
@@ -56,7 +56,7 @@ Qualification Analysis
 Performance Analysis
 80+ SQL Queries
 
-👁️ Views
+ Views
 Employee_Details_View
 Department_Summary_View
 Attendance_Summary_View
@@ -65,7 +65,7 @@ Performance_Summary_View
 
 
 
-⚙️ Stored Procedures
+ Stored Procedures
 GetEmployeeDetails
 GetDepartmentEmployees
 GetEmployeePayroll
@@ -73,17 +73,17 @@ GetTopPerformers
 GetDepartmentSalarySummary
 
 
-🧮 User Defined Functions
+ User Defined Functions
 CalculateAge()
 CalculateAnnualSalary()
 EmployeeExperience()
 
-⚡ Database Triggers
+ Database Triggers
 trg_ValidateLeaveDates
 trg_Payroll_Before_Insert
 
 
-🚀 Database Indexes
+ Database Indexes
 Indexes created to improve query performance on frequently searched columns.
 
 Examples:
@@ -93,7 +93,7 @@ Employee_Department_IDX
 Employee_Job_IDX
 
 
-📈 Key Highlights
+ Key Highlights
 ✔ Designed a normalized relational database
 ✔ Built 8 interconnected tables
 ✔ Developed 80+ analytical SQL queries
@@ -104,7 +104,7 @@ Employee_Job_IDX
 ✔ Optimized queries using Indexes
 ✔ Designed an Entity Relationship Diagram
 
-🎯 Learning Outcomes
+ Learning Outcomes
 Through this project, I gained hands-on experience in:
 
 Relational Database Design
