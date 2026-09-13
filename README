@@ -1,6 +1,6 @@
-** # Employment Management System | MySQL**
+**  Employment Management System | MySQL**
 
-## About the Project ##
+** About the Project **
 
 This is a MySQL project I built to practise database design and SQL analysis using an employee management scenario.
 
@@ -8,7 +8,7 @@ As a fresher, I wanted to build a project that goes beyond basic SQL queries and
 
 The main focus was to understand how SQL can be used to organise data, maintain data quality, and answer questions that could be useful to an HR or management team.
 
-## Technologies Used
+** Technologies Used **
 MySQL
 SQL
 MySQL Workbench
