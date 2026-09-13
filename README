@@ -1,5 +1,5 @@
-### Employment Management System | MySQL
-About the Project
+# Employment Management System | MySQL
+## About the Project
 
 This is a MySQL project I built to practise database design and SQL analysis using an employee management scenario.
 
@@ -7,7 +7,7 @@ As a fresher, I wanted to build a project that goes beyond basic SQL queries and
 
 The main focus was to understand how SQL can be used to organise data, maintain data quality, and answer questions that could be useful to an HR or management team.
 
-Technologies Used
+## Technologies Used
 MySQL
 SQL
 MySQL Workbench
@@ -28,7 +28,7 @@ I used Primary Keys and Foreign Keys to connect the tables and followed normaliz
 
 I also created an Entity Relationship Diagram (ERD) to understand and document the relationships between the tables.
 
-SQL Analysis
+## SQL Analysis
 
 I developed 80+ SQL queries to practise analysing employee and HR data.
 
@@ -46,7 +46,7 @@ Top-performing employees
 
 While writing these queries, I focused on understanding what information could be useful to a business rather than only practising SQL syntax.
 
-SQL Views
+## SQL Views
 
 I created Views to make commonly used information easier to access:
 
@@ -58,7 +58,7 @@ Performance_Summary_View
 
 This gave me practical experience in creating reusable datasets for reporting and analysis.
 
-Stored Procedures
+## Stored Procedures
 
 I created Stored Procedures for common database operations:
 
@@ -80,7 +80,7 @@ EmployeeExperience()
 
 These functions helped me practise writing reusable SQL logic.
 
-Triggers
+##Triggers
 
 I implemented Triggers to practise automatic data validation and maintain data integrity.
 
@@ -89,7 +89,7 @@ trg_Payroll_Before_Insert
 
 For example, the leave trigger checks leave dates before the data is stored in the database.
 
-Indexes
+## Indexes
 
 I created indexes on frequently searched columns to learn how database indexing can help improve query performance.
 
@@ -127,7 +127,7 @@ Which employees are among the top performers?
 
 These questions helped me understand how SQL analysis can support HR reporting and decision-making.
 
-Key Achievements
+## Key Achievements
 Built a complete 8-table MySQL relational database as an individual project.
 Developed 80+ SQL queries to analyse employee and HR data.
 Practised turning business questions into SQL queries and useful results.
