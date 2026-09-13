@@ -1,145 +1,189 @@
-**  Employment Management System | MySQL**
+# Employment Management System | MySQL
 
-** About the Project **
+## About the Project
 
 This is a MySQL project I built to practise database design and SQL analysis using an employee management scenario.
 
-As a fresher, I wanted to build a project that goes beyond basic SQL queries and gives me experience working with a complete relational database. The project covers employee information, departments, job roles, attendance, payroll, leave, qualifications, and performance.
+As a fresher, I wanted to build a project that goes beyond basic SQL queries and gives me practical experience working with a relational database.
 
-The main focus was to understand how SQL can be used to organise data, maintain data quality, and answer questions that could be useful to an HR or management team.
+The database manages employee information, departments, job roles, attendance, payroll, leave records, qualifications, and performance.
 
-** Technologies Used **
-MySQL
-SQL
-MySQL Workbench
-Database Design
+The main focus of the project was to understand how SQL can be used to organise data, maintain data quality, and answer business questions.
+
+## Technologies Used
+
+- MySQL
+- SQL
+- MySQL Workbench
+
+## Database Design
 
 I designed the database with 8 related tables:
 
-Employees
-Departments
-JobRoles
-Attendance
-LeaveRecords
-Payroll
-Qualifications
-Performance
+- Employees
+- Departments
+- JobRoles
+- Attendance
+- LeaveRecords
+- Payroll
+- Qualifications
+- Performance
 
-I used Primary Keys and Foreign Keys to connect the tables and followed normalization principles to keep the database structured and reduce duplicate data.
+The tables are connected using Primary Keys and Foreign Keys.
+
+I followed normalization principles to keep the data structured and reduce duplicate data.
 
 I also created an Entity Relationship Diagram (ERD) to understand and document the relationships between the tables.
 
 ## SQL Analysis
 
-I developed 80+ SQL queries to practise analysing employee and HR data.
+I developed 80+ SQL queries to analyse different areas of employee and HR data.
 
-Some of the areas I worked on include:
+The analysis includes:
 
-Employee information and experience
-Department analysis
-Job role analysis
-Salary and payroll analysis
-Attendance analysis
-Leave analysis
-Employee qualifications
-Performance analysis
-Top-performing employees
+- Employee analysis
+- Department analysis
+- Job role analysis
+- Salary and payroll analysis
+- Attendance analysis
+- Leave analysis
+- Employee qualification analysis
+- Performance analysis
+- Employee experience analysis
+- Top-performing employee analysis
 
-While writing these queries, I focused on understanding what information could be useful to a business rather than only practising SQL syntax.
+The queries helped me practise SQL while also understanding what information could be useful from a business perspective.
+
+## SQL Concepts Practised
+
+### Basic and Intermediate SQL
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- HAVING
+- JOINs
+- Subqueries
+- Aggregate Functions
+
+### Advanced SQL
+
+- CTEs
+- Window Functions
+- Views
+- Stored Procedures
+- User-Defined Functions
+- Triggers
+- Constraints
+- Indexes
 
 ## SQL Views
 
-I created Views to make commonly used information easier to access:
+I created the following Views to make commonly used employee information easier to access:
 
-Employee_Details_View
-Department_Summary_View
-Attendance_Summary_View
-Payroll_Summary_View
-Performance_Summary_View
+- `Employee_Details_View`
+- `Department_Summary_View`
+- `Attendance_Summary_View`
+- `Payroll_Summary_View`
+- `Performance_Summary_View`
 
-This gave me practical experience in creating reusable datasets for reporting and analysis.
+These Views helped me practise creating reusable datasets for reporting and analysis.
 
 ## Stored Procedures
 
-I created Stored Procedures for common database operations:
+I created Stored Procedures for commonly used database operations:
 
-GetEmployeeDetails
-GetDepartmentEmployees
-GetEmployeePayroll
-GetTopPerformers
-GetDepartmentSalarySummary
+- `GetEmployeeDetails`
+- `GetDepartmentEmployees`
+- `GetEmployeePayroll`
+- `GetTopPerformers`
+- `GetDepartmentSalarySummary`
 
-This helped me understand how database operations can be made reusable instead of writing the same SQL repeatedly.
+This helped me understand how repetitive database operations can be made reusable.
 
-User-Defined Functions
+## User-Defined Functions
 
-I created functions for common employee calculations:
+I created functions for common employee-related calculations:
 
-CalculateAge()
-CalculateAnnualSalary()
-EmployeeExperience()
+- `CalculateAge()`
+- `CalculateAnnualSalary()`
+- `EmployeeExperience()`
 
-These functions helped me practise writing reusable SQL logic.
+These functions helped me practise creating reusable SQL logic.
 
-##Triggers
+## Database Triggers
 
-I implemented Triggers to practise automatic data validation and maintain data integrity.
+I implemented Triggers to practise data validation and maintain data integrity.
 
-trg_ValidateLeaveDates
-trg_Payroll_Before_Insert
+- `trg_ValidateLeaveDates`
+- `trg_Payroll_Before_Insert`
 
-For example, the leave trigger checks leave dates before the data is stored in the database.
+For example, the leave trigger helps validate leave dates before the data is stored in the database.
 
-## Indexes
+## Database Indexes
 
-I created indexes on frequently searched columns to learn how database indexing can help improve query performance.
+I created indexes on frequently searched columns to understand how indexing can improve database query performance.
 
 Examples:
 
-Employee_Email_IDX
-Employee_Department_IDX
-Employee_Job_IDX
-What I Worked On
+- `Employee_Email_IDX`
+- `Employee_Department_IDX`
+- `Employee_Job_IDX`
 
-Through this project, I gained hands-on practice in:
-
-Designing a relational database
-Creating and connecting multiple tables
-Writing SQL queries for business analysis
-Working with Primary Keys and Foreign Keys
-Using JOINs, subqueries, CTEs and aggregate functions
-Using Views and Stored Procedures
-Creating User-Defined Functions
-Working with Triggers
-Creating Indexes
-Thinking about data from a business perspective
-Business Questions
+## Business Questions
 
 I used SQL to answer questions such as:
 
-Which departments have the most employees?
-Which departments have the highest average salary?
-Which employees have the highest performance ratings?
-How does salary vary across different job roles?
-What are the attendance and leave patterns?
-Which employees have the most experience?
-How much is being spent on payroll?
-Which employees are among the top performers?
+- Which departments have the most employees?
+- Which departments have the highest average salary?
+- Which employees are the top performers?
+- How does salary vary across different job roles?
+- What are the employee attendance and leave patterns?
+- Which employees have the most experience?
+- How much is being spent on payroll?
+- How are employees distributed across departments and job roles?
 
-These questions helped me understand how SQL analysis can support HR reporting and decision-making.
+These questions helped me understand how SQL analysis can support HR reporting and business decision-making.
 
 ## Key Achievements
-Built a complete 8-table MySQL relational database as an individual project.
-Developed 80+ SQL queries to analyse employee and HR data.
-Practised turning business questions into SQL queries and useful results.
-Created Views, Stored Procedures and Functions to make database operations reusable.
-Implemented Triggers to practise data validation and data integrity.
-Used Indexes to understand basic database performance optimization.
-Designed an ERD to plan and document the database structure.
-Learning Outcome
 
-This project gave me practical experience with MySQL and helped me build confidence in writing SQL for data analysis.
+- Designed and implemented an 8-table relational database using MySQL.
+- Used Primary Keys and Foreign Keys to establish relationships between tables.
+- Developed 80+ SQL queries for employee and HR analysis.
+- Practised using JOINs, subqueries, CTEs, aggregate functions, and window functions.
+- Created 5 SQL Views for commonly used employee and HR reporting.
+- Developed Stored Procedures for reusable database operations.
+- Created User-Defined Functions for employee age, salary, and experience calculations.
+- Implemented Triggers for data validation and data integrity.
+- Created Indexes to understand database performance optimization.
+- Designed an ERD to document the database structure.
+- Used SQL to answer business-focused questions using employee data.
 
-As a fresher, one of my main goals with this project was to understand not only how to write SQL, but also how to use data to answer a business question.
+## What I Learned
 
-I will continue improving this project as I learn more about data analytics, database development, and data engineering.
+Through this project, I gained practical experience in:
+
+- Relational database design
+- Database normalization
+- Writing SQL queries
+- Working with multiple related tables
+- Data analysis using SQL
+- Data validation and integrity
+- Database automation
+- Basic query performance optimization
+- Thinking about data from a business perspective
+
+As a fresher, this project helped me build confidence in MySQL and understand how SQL can be used not only to retrieve data, but also to answer business questions and support decision-making.
+
+## Project Structure
+
+```text
+Employment_Management_system/
+│
+├── SQL/
+│   └── project/
+│
+├── ERD/
+│
+└── README.md
